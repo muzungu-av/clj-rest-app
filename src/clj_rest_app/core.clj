@@ -1,11 +1,13 @@
+;; ;https://github.com/lispyclouds/contajners/blob/main/doc/000-getting-started.md
 (ns clj-rest-app.core
-  (:require [clj-rest-app.people.people :as people :refer [collection]]
-            [org.httpkit.server :as server]
+  (:require [clj-rest-app.docker.dockerapi :refer [dock]]
+            [clj-rest-app.people.people :as people :refer [collection]]
+            [clojure.data.json :as json]
             [clojure.pprint :as pp]
             [compojure.core :refer [defroutes GET]]
             [compojure.route :as route]
-            [ring.middleware.defaults :refer [wrap-defaults, site-defaults]]
-            [clojure.data.json :as json])
+            [org.httpkit.server :as server]
+            [ring.middleware.defaults :refer [site-defaults wrap-defaults]])
   (:gen-class))
 
 ; Simple Body Page
