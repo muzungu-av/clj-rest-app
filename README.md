@@ -1,6 +1,6 @@
-# clj-rest-app
+# DOCKER-WEB-API
 
-FIXME: description
+This application manages docker containers through the web interface (or rest api)
 
 ## Installation
 
@@ -11,3 +11,8 @@ Download from http://example.com/FIXME.
 FIXME: explanation
 
     $ java -jar clj-rest-app-0.1.0-standalone.jar [args]
+
+## Dependencies
+Docker control via the library:
+    
+    https://github.com/lispyclouds/contajners

@@ -1,7 +1,6 @@
-;; ;https://github.com/lispyclouds/contajners/blob/main/doc/000-getting-started.md
-(ns clj-rest-app.core
-  (:require [clj-rest-app.docker.dockerapi :refer [dock]]
-            [clj-rest-app.people.people :as people :refer [collection]]
+(ns docker_web_api.core
+  (:require [docker-web-api.docker.dockerapi :refer [docker]]
+            [docker-web-api.people.people :as people :refer [collection]]
             [clojure.data.json :as json]
             [clojure.pprint :as pp]
             [compojure.core :refer [defroutes GET]]

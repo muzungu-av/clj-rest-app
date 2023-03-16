@@ -1,4 +1,4 @@
-(ns clj-rest-app.people.people
+(ns docker-web-api.people.people
   (:require [clojure.string :as str]))
 
 (def collection (atom []))

@@ -1,4 +1,4 @@
-(ns clj-rest-app.docker.dockerapi
+(ns docker-web-api.docker.dockerapi
   (:require [contajners.core :as c]))
 
 
@@ -15,4 +15,3 @@
 (container-start "1705e1c733f4") ; start exist container (traefik)
 
 (container-start "ad78aa00b794") ; start exist container (jenkins)
-

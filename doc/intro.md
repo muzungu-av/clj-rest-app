@@ -1,3 +1,3 @@
-# Introduction to clj-rest-app
+# Introduction to docker_web_api
 
 TODO: write  [great documentation](http://jacobian.org/writing/what-to-write/)
